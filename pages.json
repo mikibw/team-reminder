@@ -1,0 +1,76 @@
+{
+	"pages": [
+		{
+			"path": "pages/events/events",
+			"style": {
+				"navigationBarTitleText": "Events"
+			}
+		},
+		{
+			"path": "pages/profile/profile",
+			"style": {
+				"navigationBarTitleText": "Profile"
+			}
+		},
+		{
+			"path": "pages/blood/blood",
+			"style": {
+				"navigationBarTitleText": "Blood"
+			}
+		},
+		{
+			"path": "pages/roster/roster",
+			"style": {
+				"navigationBarTitleText": "Rosters"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "Login"
+			}
+		},
+		{
+			"path": "pages/users/users",
+			"style": {
+				"navigationBarTitleText": "Users"
+			}
+		},
+		{
+			"path": "pages/update/update",
+			"style": {
+				"navigationBarTitleText": "Update"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "#FFFFFF",
+		"navigationBarBackgroundColor": "#6A4C9C",
+		"backgroundColor": "#E5E5E5"
+	},
+	"tabBar": {
+		"color": "#333333",
+		"selectedColor": "#6A4C9C",
+		"backgroundColor": "#FFFFFF",
+		"list": [
+			{
+				"pagePath": "pages/events/events",
+				"text": "Events",
+				"iconPath": "static/tab_event.png",
+				"selectedIconPath": "static/tab_event_selected.png"
+			},
+			{
+				"pagePath": "pages/roster/roster",
+				"text": "Rosters",
+				"iconPath": "static/tab_roster.png",
+				"selectedIconPath": "static/tab_roster_selected.png"
+			},
+			{
+				"pagePath": "pages/profile/profile",
+				"text": "Profile",
+				"iconPath": "static/tab_profile.png",
+				"selectedIconPath": "static/tab_profile_selected.png"
+			}
+		]
+	}
+}

@@ -1,0 +1,6 @@
+button[type=primary] {
+	background-color: $uni-color-primary;
+}
+button[type=primary][disabled] {
+	background-color: $uni-color-primary;
+}
